@@ -1,0 +1,15 @@
+
+header {
+    display: inline-flex;
+    justify-content: space-between;
+    
+}
+
+header li {
+    display: inline;
+    text-decoration: none;
+}
+
+.logo img{
+   width: 20%;
+}
