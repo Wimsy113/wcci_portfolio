@@ -1,3 +1,5 @@
+/* Site Header */
+
 #logo img {
   width: 20%;
 }
@@ -13,7 +15,6 @@
 #header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 2%
 }
 
@@ -23,6 +24,32 @@
   justify-content: space-between;
 }
 
+.about_me {
+  display: inline-flex;
+  width: 40%;
+  border:.5px solid black;
+}
+
+.bio {
+  margin-right: 10%;
+}
+
+.my_face img {
+  width: 60%;
+}
+
+.projects {
+  display: inline-flex;
+  justify-content: space-evenly;
+  margin-top: 10%;
+}
+
+.project {
+  margin-left:5% ;
+}
+
+
+
 nav li {
     display: inline-flex;
     margin-right: 10px;
@@ -31,4 +58,14 @@ nav li {
 
 ul li {
     list-style: none;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:blueviolet;
+  color: white;
+
 }
