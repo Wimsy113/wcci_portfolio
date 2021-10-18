@@ -4,9 +4,13 @@
   width: 20%;
 }
 
+#logo img {
+  width: 20%;
+}
+
 .hero {
   height: 60vh;
-  background-image: url(./images/plus_ultra3.png);
+  background-image: url(../images/plus_ultra3.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -15,6 +19,7 @@
 #header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 2%
 }
 
@@ -23,32 +28,6 @@
   flex-direction: column;
   justify-content: space-between;
 }
-
-.about_me {
-  display: inline-flex;
-  width: 40%;
-  border:.5px solid black;
-}
-
-.bio {
-  margin-right: 10%;
-}
-
-.my_face img {
-  width: 60%;
-}
-
-.projects {
-  display: inline-flex;
-  justify-content: space-evenly;
-  margin-top: 10%;
-}
-
-.project {
-  margin-left:5% ;
-}
-
-
 
 nav li {
     display: inline-flex;
@@ -60,12 +39,57 @@ ul li {
     list-style: none;
 }
 
+
+.about_me {
+  display: inline-flex;
+  margin-top: 10%;
+  width: 60%;
+  
+}
+
+.about_me {
+  display: inline-flex;
+  margin-top: 10%;
+  width: 40%;
+  border: .5px solid black;
+  
+}
+
+.my_face img {
+  width: 60%;
+}
+
+.projects {
+  display: inline-flex;
+  justify-content: space-evenly;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.project {
+  margin-left:5% ;
+  border: .5px solid black;
+  padding: 10px;
+}
+
+
+
+
+ul li {
+    list-style: none;
+}
+
+.links a {
+  text-decoration: none;
+  color:aliceblue;
+  margin-left: 5%;
+}
+
 footer {
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
   background-color:blueviolet;
-  color: white;
 
 }
